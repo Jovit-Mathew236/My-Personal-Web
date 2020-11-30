@@ -488,7 +488,7 @@ a.fo:hover{
         height: 60px;
     }
   }
-  @media screen and (min-width:250px) and (max-width:350px) {
+  @media screen and (min-width:250px) and (max-width:450px) {
     .all-form{
         margin-left: 5px;
     }
