@@ -10,7 +10,7 @@
     padding-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    height: 570px;
+    height: auto;
     color: white;
     border: 2px solid rgba(0, 0, 0, 0.445);
     border-radius: 40px;
@@ -18,6 +18,9 @@
     background-color: black;
     background:radial-gradient(rgba(117, 117, 117, 0.541) 10%, black 90%);
     display: flex;
+}
+.fl-vl{
+    display: none;
 }
 .fl{
     float: right;
@@ -46,12 +49,27 @@
 .vl {
     margin-top: 150px;
     border-width: 2px;
+    border-right-width: 2px;
     border-style: solid;
     border-radius: 50%;
     border-image: linear-gradient(to bottom, rgba(255, 145, 0, 0.829) , rgba(255, 0, 212, 0.596) )1 100%;
     height: 300px;
+    width: 1px;
     margin-left: 220px;
-    box-shadow: 4px 0px 5px  rgb(19, 19, 19);
+}
+.vl-2{
+    display: none;
+    margin-top: 3px;
+    padding-top: 10px;
+    border-width: 3px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-radius: 0;
+    border-image: linear-gradient(to bottom, rgba(255, 145, 0, 0.829) , rgba(255, 0, 212, 0.596) )1 100%;
+    height: 2px;
+    width: 14rem;
+    margin-left: 4px;
+    box-shadow: 4px 0px 5px rgb(19, 19, 19);
 }
 @media screen and (min-width:100px) and (max-width:350px) {
     .info{ 
@@ -76,35 +94,143 @@
         font-size: 16px;
     }
   }
-  /*@media screen and (min-width:350px) and (max-width:400px) {
+  @media screen and (min-width:350px) and (max-width:400px) {
     .info{ 
+      display: block;
+      height: 800px;
+    }
+    .img{
+        height: 290px;
+        width: 290px;
+        margin-top: 5px;
+        margin-left: 3px;
+    }
+    .vl{
         display: block;
-      }
-      .img{
-          margin-left: 20px;
-      }
-      .vl{
-          display: block;
-      }
-      .h1{
-          margin-left: 20px;
-      }
-  }
-  @media screen and (min-width:400px) and (max-width:450px) {
+        margin-top: 394px;
+        border-width: 1px;
+        border-top-width: 0px;
+        border-style: solid;
+        border-radius: 0;
+        border-image: linear-gradient(to bottom, rgba(255, 145, 0, 0.829) , rgba(255, 0, 212, 0.596) )1 100%;
+        height: 215px;
+        width: 14rem;
+        margin-left: 45px;
+    }
+    .h1{
+        margin-left: -520px;
+        font-size: 30px;
+        width: 0px;
+    }.fl{
+        margin-top: -255px;
+        margin-left: 77px;
+        margin-right: 100px;
+        font-size: 16px;
+    }
+}  
+  @media screen and (min-width:400px) and (max-width:430px) {
     .info{ 
+      display: block;
+      height: 800px;
+    }
+    .img{
+        height: 290px;
+        width: 290px;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .vl{
         display: block;
-      }
-      .img{
-          margin-left: 20px;
-      }
-      .vl{
-          display: block;
-      }
-      .h1{
-          margin-left: 20px;
-      }
+        margin-top: 394px;
+        border-width: 1px;
+        border-top-width: 0px;
+        border-style: solid;
+        border-radius: 0;
+        border-image: linear-gradient(to bottom, rgba(255, 145, 0, 0.829) , rgba(255, 0, 212, 0.596) )1 100%;
+        height: 215px;
+        width: 14rem;
+        margin-left: 45px;
+    }
+    .h1{
+        margin-left: -520px;
+        margin-top: -101px;
+        font-size: 30px;
+        width: 0px;
+    }.fl{
+        margin-top: -255px;
+        margin-left: 77px;
+        margin-right: 100px;
+        font-size: 16px;
+    }.fl-vl{
+        margin-left:10px;
+    }
+    .vl-2{
+        display: block;
+        margin-top: 37px;
+        padding-top: 45px;
+        border-width: 4px;
+        border-right-width: 0px;
+        border-style: solid;
+        border-radius: 0;
+        border-image: linear-gradient(to bottom, rgba(255, 145, 0, 0.829) , rgba(255, 0, 212, 0.596) )1 100%;
+        height: 91px;
+        width: 0rem;
+        margin-left: 15px;
+        box-shadow: 4px 0px 5px rgb(19, 19, 19);
+    }
   }
-  @media screen and (min-width:450px) and (max-width:500px) {
+  @media screen and (min-width:430px) and (max-width:450px) {
+    .info{ 
+      display: block;
+      height: 800px;
+    }
+    .img{
+        height: 280px;
+        width: 280px;
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    .vl{
+        display: block;
+        margin-top: 384px;
+        border-width: 1px;
+        border-top-width: 0px;
+        border-style: solid;
+        border-radius: 0;
+        border-image: linear-gradient(to bottom, rgba(255, 145, 0, 0.829) , rgba(255, 0, 212, 0.596) )1 100%;
+        height: 215px;
+        width: 18rem;
+        margin-left: 40px;
+    }
+    .h1{
+        margin-left: -520px;
+        margin-top: -101px;
+        font-size: 30px;
+        width: 0px;
+    }.fl{
+        margin-top: -235px;
+        margin-left: 77px;
+        margin-right: 100px;
+        font-size: 16px;
+    }.fl-vl{
+        margin-left:10px;
+    }
+    .vl-2{
+        display: block;
+        margin-top: 37px;
+        padding-top: 45px;
+        border-width: 4px;
+        border-right-width: 0px;
+        border-style: solid;
+        border-radius: 0;
+        border-image: linear-gradient(to bottom, rgba(255, 145, 0, 0.829) , rgba(255, 0, 212, 0.596) )1 100%;
+        height: 91px;
+        width: 0rem;
+        margin-left: 15px;
+        box-shadow: 4px 0px 5px rgb(19, 19, 19);
+    }
+  }
+  /*@media screen and (min-width:450px) and (max-width:500px) {
     .info{ 
         display: block;
       }
@@ -297,4 +423,25 @@ a.fo:hover{
 }
 .navbar-light .navbar-brand {
     color: rgb(255, 255, 255);
+}
+.form{
+    color:white;
+    padding: 10px;
+    padding-left: 350px;
+}
+.sub{
+    margin-left: 245px;
+    margin-top: 20px;
+    width: 200px;
+}
+.in{
+    padding-top: 5px;
+    width: 700px;
+    height: 60px;
+}
+.lbl{
+    padding-top: 10px;
+}
+.op{
+    margin-top: 10px;
 }
