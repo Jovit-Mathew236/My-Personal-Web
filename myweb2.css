@@ -488,7 +488,7 @@ a.fo:hover{
         height: 60px;
     }
   }
-  @media screen and (min-width:250px) and (max-width:450px) {
+  @media screen and (min-width:250px) and (max-width:350px) {
     .all-form{
         margin-left: 5px;
     }
@@ -503,6 +503,24 @@ a.fo:hover{
     .in {
         padding-top: 5px;
         width: 260px;
+        height: 60px;
+    }
+  }
+@media screen and (min-width:350px) and (max-width:450px) {
+    .all-form{
+        margin-left: 5px;
+    }
+    .form {
+        padding-left: 0px;
+    }
+    .sub {
+        margin-left: 67px;
+        margin-top: 23px;
+        width: 116px;
+    }
+    .in {
+        padding-top: 5px;
+        width: 300px;
         height: 60px;
     }
   }
