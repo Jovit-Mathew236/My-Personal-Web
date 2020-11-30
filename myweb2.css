@@ -71,7 +71,31 @@
     margin-left: 4px;
     box-shadow: 4px 0px 5px rgb(19, 19, 19);
 }
-@media screen and (min-width:100px) and (max-width:350px) {
+@media screen and (min-width:100px) and (max-width:250px) {
+    .info{ 
+      display: block;
+      height: 800px;
+    }
+    .img{
+        height: 264px;
+      width: 267px;
+      margin-top: 5px;
+      margin-left: 3px;
+    }
+    .vl{
+        display: block;
+        margin-left: 181px;
+    }
+    .h1{
+        margin-left: -560px;
+        font-size: 30px;
+    }.fl{
+        margin-top: -100px;
+        margin-left: -50px;
+        font-size: 14px;
+    }
+  }
+@media screen and (min-width:250px) and (max-width:350px) {
     .info{ 
       display: block;
       height: 800px;
@@ -86,7 +110,7 @@
         display: block;
     }
     .h1{
-        margin-left: -520px;
+        margin-left: -537px;
         font-size: 30px;
     }.fl{
         margin-top: -100px;
@@ -358,6 +382,7 @@
   }*/
 .body{
     background-image: linear-gradient(to bottom, rgb(0, 0, 0) 1% ,rgb(92, 92, 92) 100% );
+    height: auto;
 }
 .main{
     margin-left: 10px;
@@ -445,3 +470,39 @@ a.fo:hover{
 .op{
     margin-top: 10px;
 }
+@media screen and (min-width:200px) and (max-width:250px) {
+    .all-form{
+        margin-left: 5px;
+    }
+    .form {
+        padding-left: 0px;
+    }
+    .sub {
+        margin-left: 42px;
+        margin-top: 23px;
+        width: 116px;
+    }
+    .in {
+        padding-top: 5px;
+        width: 190px;
+        height: 60px;
+    }
+  }
+  @media screen and (min-width:250px) and (max-width:350px) {
+    .all-form{
+        margin-left: 5px;
+    }
+    .form {
+        padding-left: 0px;
+    }
+    .sub {
+        margin-left: 58px;
+        margin-top: 23px;
+        width: 116px;
+    }
+    .in {
+        padding-top: 5px;
+        width: 260px;
+        height: 60px;
+    }
+  }
