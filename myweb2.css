@@ -45,7 +45,6 @@
     margin-top: 30px;
     color: rgba(255, 255, 255, 0.842);
     text-shadow: 5px 5px 5px rgb(15, 15, 15);
-    display:flex;
 }
 .vl {
     margin-top: 150px;
@@ -231,7 +230,7 @@
         margin-left: -520px;
         margin-top: -101px;
         font-size: 30px;
-        width: 0px;
+        width: auto;
     }.fl{
         margin-top: -235px;
         margin-left: 20vw;
