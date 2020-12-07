@@ -144,7 +144,7 @@
     .h1{
         margin-left: -520px;
         font-size: 28px;
-        width: 0px;
+        display:flex;
     }.fl{
         margin-top: -255px;
         margin-left: 77px;
